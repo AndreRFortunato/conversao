@@ -1,0 +1,23 @@
+URL
+http://localhost:8080/currencies
+http://localhost:8080/history
+
+http://localhost:8080/convert?fromCurrencyCode=BRL&toCurrencyCode=USD&amount=100
+http://localhost:8080/convert?fromCurrencyCode=EUR&toCurrencyCode=USD&amount=200
+http://localhost:8080/convert?fromCurrencyCode=GBP&toCurrencyCode=EUR&amount=550
+http://localhost:8080/convert?fromCurrencyCode=BRL&toCurrencyCode=GBP&amount=6300
+
+DTO
+http://localhost:8080/convertDTO
+
+{
+    "fromCurrencyCode": "BRL",
+    "toCurrencyCode": "USD",
+    "amount": 433
+}
+
+{
+    "fromCurrencyCode": "GBP",
+    "toCurrencyCode": "ARS",
+    "amount": 500
+}
